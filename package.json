@@ -1,6 +1,6 @@
 {
   "name": "react-input-autosize-2",
-  "version": "1.0",
+  "version": "2.2.1",
   "description": "Auto-resizing Input Component for React. React-input-autosize for React 16",
   "main": "lib/AutosizeInput.js",
   "js:next": "dist/react-input-autosize.es.js",
@@ -10,9 +10,7 @@
     "type": "git",
     "url": "https://github.com/jacycode/react-input-autosize-2.git"
   },
-  "dependencies": {
-    "prop-types": "^15.5.8"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

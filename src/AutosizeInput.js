@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const sizerStyle = {
 	position: 'absolute',
@@ -182,29 +182,29 @@ class AutosizeInput extends Component {
 	}
 }
 
-AutosizeInput.propTypes = {
-	className: PropTypes.string,               // className for the outer element
-	defaultValue: PropTypes.any,               // default field value
-	extraWidth: PropTypes.oneOfType([          // additional width for input element
-		PropTypes.number,
-		PropTypes.string,
-	]),
-	id: PropTypes.string,                      // id to use for the input, can be set for consistent snapshots
-	injectStyles: PropTypes.bool,              // inject the custom stylesheet to hide clear UI, defaults to true
-	inputClassName: PropTypes.string,          // className for the input element
-	inputRef: PropTypes.func,                  // ref callback for the input element
-	inputStyle: PropTypes.object,              // css styles for the input element
-	minWidth: PropTypes.oneOfType([            // minimum width for input element
-		PropTypes.number,
-		PropTypes.string,
-	]),
-	onAutosize: PropTypes.func,                // onAutosize handler: function(newWidth) {}
-	onChange: PropTypes.func,                  // onChange handler: function(event) {}
-	placeholder: PropTypes.string,             // placeholder text
-	placeholderIsMinWidth: PropTypes.bool,     // don't collapse size to less than the placeholder
-	style: PropTypes.object,                   // css styles for the outer element
-	value: PropTypes.any,                      // field value
-};
+// AutosizeInput.propTypes = {
+// 	className: PropTypes.string,               // className for the outer element
+// 	defaultValue: PropTypes.any,               // default field value
+// 	extraWidth: PropTypes.oneOfType([          // additional width for input element
+// 		PropTypes.number,
+// 		PropTypes.string,
+// 	]),
+// 	id: PropTypes.string,                      // id to use for the input, can be set for consistent snapshots
+// 	injectStyles: PropTypes.bool,              // inject the custom stylesheet to hide clear UI, defaults to true
+// 	inputClassName: PropTypes.string,          // className for the input element
+// 	inputRef: PropTypes.func,                  // ref callback for the input element
+// 	inputStyle: PropTypes.object,              // css styles for the input element
+// 	minWidth: PropTypes.oneOfType([            // minimum width for input element
+// 		PropTypes.number,
+// 		PropTypes.string,
+// 	]),
+// 	onAutosize: PropTypes.func,                // onAutosize handler: function(newWidth) {}
+// 	onChange: PropTypes.func,                  // onChange handler: function(event) {}
+// 	placeholder: PropTypes.string,             // placeholder text
+// 	placeholderIsMinWidth: PropTypes.bool,     // don't collapse size to less than the placeholder
+// 	style: PropTypes.object,                   // css styles for the outer element
+// 	value: PropTypes.any,                      // field value
+// };
 AutosizeInput.defaultProps = {
 	minWidth: 1,
 	injectStyles: true,
